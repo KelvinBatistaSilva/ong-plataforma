@@ -8,6 +8,9 @@
   <title>Início • Plataforma ONG</title>
   <link rel="preload" as="image" href="assets/img/hero.svg" imagesrcset="assets/img/hero.svg">
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Alto contraste (fica desligado por padrão) -->
+  <link id="hc" rel="stylesheet" href="docs/high-contrast.css" disabled>
 </head>
 <body>
 <a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
@@ -22,6 +25,11 @@
         <li><a href="projetos.html">Projetos</a></li>
         <li><a href="cadastro.html">Cadastro</a></li>
       </ul>
+
+      <!-- Botão Alto Contraste -->
+      <button type="button" id="btn-hc" class="btn" aria-pressed="false" style="margin-left:.5rem">
+        Alto contraste: OFF
+      </button>
     </nav>
   </div>
 </header>
@@ -75,5 +83,41 @@
     <p>Contato: <a href="mailto:contato@ong-exemplo.org">contato@ong-exemplo.org</a> • (69) 99999-9999</p>
   </div>
 </footer>
+
+<!-- Script: toggle do alto contraste com persistência -->
+<script>
+  (function () {
+    const linkHC = document.getElementById('hc');
+    const btn = document.getElementById('btn-hc');
+    const KEY = 'prefersHighContrast';
+
+    function applyState(on) {
+      linkHC.disabled = !on;
+      btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      btn.textContent = on ? 'Alto contraste: ON' : 'Alto contraste: OFF';
+    }
+
+    // Estado salvo
+    const saved = localStorage.getItem(KEY);
+    const isOn = saved === 'true';
+    applyState(isOn);
+
+    // Toggle no clique
+    btn.addEventListener('click', () => {
+      const next = linkHC.disabled; // se está disabled, vamos ligar
+      applyState(next);
+      localStorage.setItem(KEY, String(next));
+    });
+
+    // Atalho de teclado: Alt+H
+    document.addEventListener('keydown', (e) => {
+      if ((e.altKey || e.metaKey) && (e.key === 'h' || e.key === 'H')) {
+        e.preventDefault();
+        btn.click();
+      }
+    });
+  })();
+</script>
+
 <script src="js/main.js" defer></script>
 </body></html>
