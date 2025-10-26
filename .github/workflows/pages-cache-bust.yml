@@ -1,0 +1,14 @@
+name: pages-cache-bust
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  touch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache bust flag
+        run: |
+          mkdir -p docs
+          echo "build=$(date +%s)" > docs/.build.txt
