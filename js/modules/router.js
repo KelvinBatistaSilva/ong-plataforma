@@ -1,0 +1,1 @@
+export class Router{constructor(routes){this.routes=routes;}start(){const apply=()=>{const hash=location.hash.replace('#','')||'/';const route=this.routes[hash]||this.routes['/404'];route();};window.addEventListener('hashchange',apply);document.addEventListener('DOMContentLoaded',apply);apply();}}
