@@ -15,6 +15,7 @@ Este pacote contém:
 - `W3C Validator/projetos.html_validado_no_w3.png` (print da validação W3C Validator)
 - `W3C Validator/index.html_validado_no_w3.png` (print da validação W3C Validator)
 - `W3C Validator/cadastro.html_validado_no_w3.png` (print da validação W3C Validator)
+- `W3C Validator/acessibilidade WCAG 2 1 AA.png` (print da nota Lighthouse)
 
 # Entrega III — Interatividade e Funcionalidades (JavaScript)
 
