@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">Banner ilustrativo de ONG</title><desc id="desc">Mãos unidas representando colaboração social</desc>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0a0a0a"/><stop offset="1" stop-color="#2f855a"/></linearGradient></defs>
+<rect width="1200" height="600" fill="url(#g)"/>
+<g fill="#ffffff" opacity="0.9">
+<circle cx="300" cy="300" r="140"/>
+<circle cx="420" cy="300" r="140"/>
+<circle cx="540" cy="300" r="140"/>
+</g>
+<text x="60" y="560" fill="#ffffff" font-size="40" font-family="Arial" >Junte-se a nós para transformar realidades</text>
+</svg>

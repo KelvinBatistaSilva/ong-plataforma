@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="t d">
+<title id="t">Projeto social</title><desc id="d">Cartão ilustrativo de projeto com ícones simples</desc>
+<rect width="800" height="500" fill="#1a202c"/>
+<rect x="40" y="60" width="720" height="380" rx="24" fill="#2f855a"/>
+<text x="80" y="150" fill="#fff" font-size="36" font-family="Arial">Projeto Comunidade Viva</text>
+<text x="80" y="210" fill="#f0fff4" font-size="22" font-family="Arial">Saúde • Educação • Meio Ambiente</text>
+<circle cx="720" cy="120" r="28" fill="#edf2f7"/>
+</svg>
