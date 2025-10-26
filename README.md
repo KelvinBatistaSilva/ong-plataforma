@@ -20,7 +20,9 @@ Este pacote contém:
 
 Implementa SPA (hash router), templates JS, verificação de consistência (idade ≥16, CPF válido, DDD x UF), máscaras (CPF/telefone/CEP), feedback visual (erros + toast) e armazenamento local (localStorage). Código modular em `js/modules/`.
 
+
 Entrega IV (Versionamento, Acessibilidade e Deploy)
+
 GitFlow, Conventional Commits, SemVer releases, WCAG 2.1 AA, minificação e deploy.
 
 ## Como testar
