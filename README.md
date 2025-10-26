@@ -8,6 +8,9 @@ Este pacote contém:
 - `css/styles.css` (responsivo, acessível, contraste AA)
 - `js/main.js` (máscaras: CPF, telefone, CEP; melhorias de UX)
 - `assets/img/hero.svg`, `assets/img/project.svg` (imagens otimizadas)
+- `W3C Validator/projetos.html_validado_no_w3.png` (print da validação W3C Validator)
+- `W3C Validator/index.html_validado_no_w3.png` (print da validação W3C Validator)
+- `W3C Validator/cadastro.html_validado_no_w3.png` (print da validação W3C Validator)
 
 ## Como testar
 1. Abra `index.html` no navegador.
