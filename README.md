@@ -26,6 +26,9 @@ Entrega IV (Versionamento, Acessibilidade e Deploy)
 
 GitFlow, Conventional Commits, SemVer releases, WCAG 2.1 AA, minificação e deploy.
 
+Produção
+Minificação executada com scripts/minify.py; artefatos em /dist
+
 ## Como testar
 1. Abra `index.html` no navegador.
 2. Valide no [W3C Validator](https://validator.w3.org/nu/) (todos os HTML estão prontos para validação).
