@@ -16,6 +16,11 @@ Este pacote contém:
 - `W3C Validator/index.html_validado_no_w3.png` (print da validação W3C Validator)
 - `W3C Validator/cadastro.html_validado_no_w3.png` (print da validação W3C Validator)
 
+# Entrega III — Interatividade e Funcionalidades (JavaScript)
+
+Implementa SPA (hash router), templates JS, verificação de consistência (idade ≥16, CPF válido, DDD x UF), máscaras (CPF/telefone/CEP), feedback visual (erros + toast) e armazenamento local (localStorage). Código modular em `js/modules/`.
+
+
 ## Como testar
 1. Abra `index.html` no navegador.
 2. Valide no [W3C Validator](https://validator.w3.org/nu/) (todos os HTML estão prontos para validação).
